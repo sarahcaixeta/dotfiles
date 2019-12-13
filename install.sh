@@ -25,3 +25,6 @@ ln -s $(pwd)/init.vim ~/.config/nvim/init.vim
 # z
 curl https://raw.githubusercontent.com/rupa/z/master/z.sh -o z.sh
 echo ". $(pwd)/z.sh" >> ~/.zshrc
+
+# tmux
+sudo apt install tmux
