@@ -12,11 +12,11 @@ cp ~/.zshrc ~/.zshrc.orig
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 chsh -s /bin/zsh
 
-#node/nvm
+# node/nvm
 sudo apt install nodejs
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash  
 
-#neovim
+# neovim
 sudo apt install neovim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
